@@ -9,5 +9,5 @@ int     4字节
 long    8字节
 char    1字节
 String  short长度+字节数组
-List    short长度+
-Map     short长度+
+List    short长度+字节数组
+Map     short长度+字节数组
