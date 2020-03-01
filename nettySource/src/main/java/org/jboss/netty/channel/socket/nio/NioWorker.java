@@ -61,7 +61,7 @@ public class NioWorker extends AbstractNioWorker {
 
         ByteBuffer bb = recvBufferPool.get(predictedRecvBufSize).order(bufferFactory.getDefaultOrder());
         try {
-            while ((ret = ch.read(bb)) > 0) {
+                while ((ret = ch.read(bb)) > 0) {
                 readBytes += ret;
                 if (!bb.hasRemaining()) {
                     break;

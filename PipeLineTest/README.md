@@ -1,0 +1,2 @@
+### PipeLine源码跟踪测试
+DefaultChannelHandlerContext封装了ChannelHandler对象，为双向链表数据结构，传递的方法是sendUpstream(event);

@@ -1,4 +1,4 @@
-profo里面的类型的大小占用的字节是动态伸缩的
+### profo里面的类型的大小占用的字节是动态伸缩的
 
 netty入门教程之 了解并学习使用protocol buff
 
@@ -16,7 +16,7 @@ netty入门教程之 了解并学习使用protocol buff
 
 int 4字节   1~5字节
 
-long 8内存
+long 8字节
 
 
 
