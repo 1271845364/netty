@@ -13,7 +13,7 @@ import java.lang.annotation.Target;
  * @program netty-hello
  * @create 2020/3/1 14:58
  */
-@Target(ElementType.TYPE)
+@Target(value={ElementType.METHOD})
 @Retention(RetentionPolicy.RUNTIME)
 public @interface SocketCommand {
 
